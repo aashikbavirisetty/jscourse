@@ -1,0 +1,298 @@
+/* ========= GLOBAL ========= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+/* ========= NAVBAR ========= */
+.navbar {
+    background: linear-gradient(to right, #003366, #0055aa);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    flex-shrink: 0;
+    padding-left: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+/* SEARCH AREA */
+.search-area {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.search-area input {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.search-area button {
+    background-color: #ffd700;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.search-area button:hover {
+    transform: scale(1.05);
+}
+
+/* ========= HERO SECTION ========= */
+.hero {
+    min-height: 100vh;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Travel-Download-Free-Images-HD.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.hero-text {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 35px 40px;
+    border-radius: 12px;
+    max-width: 75%;
+    color: #003366;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* SOCIAL ICONS */
+.social-icons img {
+    width: 34px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* ========= RESULT CARDS ========= */
+/* RESULT CARDS – FLEX ROW STYLE */
+#results {
+    display: flex;
+    flex-direction: column;   /* stack rows vertically */
+    gap: 20px;
+    padding:5%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    display: flex;                 /* row layout */
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    padding: 15px;
+    gap: 5px;
+    transition: 0.3s;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    width: 450px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+}
+
+.card img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #003366;
+}
+
+.card-content p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* ========= ABOUT PAGE ========= */
+.about {
+    min-height: 90vh;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Travel-Download-Free-Images-HD.jpg");
+    padding: 50px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 36px;
+    color: #003366;
+}
+
+.team {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.member h3 {
+    color: #003366;
+    margin-bottom: 5px;
+}
+
+/* ========= CONTACT FORM ========= */
+/* ===================== CONTACT PAGE ===================== */
+
+.contact-container {
+    min-height: 90vh;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Travel-Download-Free-Images-HD.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.contact-box {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    padding: 60px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    color: white;
+    text-align: center;
+}
+
+.contact-box h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.contact-subtitle {
+    margin-bottom: 30px;
+    font-size: 15px;
+    opacity: 0.85;
+}
+
+/* FORM INPUTS */
+.input-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 500;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    margin-top: 3px;
+    background: rgba(255,255,255,0.85);
+}
+
+.input-group textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* SUBMIT BUTTON */
+.contact-btn {
+    width: 100%;
+    padding: 12px;
+    background: #ffd700;
+    border: none;
+    border-radius: 8px;
+    color: #003366;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: white;
+    transform: translateY(-3px);
+}
+
+
+/* ========= FOOTER (OPTIONAL) ========= */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}

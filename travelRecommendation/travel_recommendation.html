@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TravelBloom - Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <img src="https://static.vecteezy.com/system/resources/previews/012/814/266/original/travel-and-tourism-logo-design-vector.jpg" width="40px" height="40px">
+
+    <div class="logo">TravelBloom</div>
+
+    <ul class="nav-links">
+        <li><a href="travel_recommendation.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <div class="search-area">
+        <input type="text" id="searchInput" placeholder="Search (beach, temple, country)">
+        <button onclick="searchResults()">Search</button>
+        <button onclick="clearResults()">Reset</button>
+    </div>
+</nav>
+
+<!-- HOME PAGE SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Welcome to TravelBloom</h1>
+        <p>Discover the most amazing places around the world — beaches, temples, and beautiful countries.</p>
+
+        <div class="social-icons">
+            <img src="images/facebook.png" alt="Facebook">
+            <img src="images/twitter.png" alt="Twitter">
+            <img src="images/instagram.png" alt="Instagram">
+        </div>
+    </div>
+    <section id="results"></section>
+</section>
+
+<!-- RESULTS -->
+
+
+<script src="travel_recommendation.js"></script>
+
+</body>
+</html>

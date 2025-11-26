@@ -1,0 +1,80 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "https://wallpaperaccess.com/full/1722072.jpg",
+          "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "https://www.cunard.com/content/dam/cunard/inventory-assets/ports/MEL/MEL.jpg",
+          "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://www.tripsavvy.com/thmb/e5wZDX6HW-JmfA8Yu0KEbCZ3zLo=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-530105220-5c337bae46e0fb00012fcdfb.jpg",
+          "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://japan.com/wp-content/uploads/2017/04/London-Bridge-and-Big-Ben-at-Night-1-1-2.jpg",
+          "description": "Known for its historic temples, gardens, and traditional tea houses."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "https://2.bp.blogspot.com/-0a9xH2t8RXU/UPfZYxC2PcI/AAAAAAAACh0/W5HPmBjKaK0/s1600/Rio-de-Janeiro-Brazil-Jumper.jpg",
+          "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+        },
+        {
+          "name": "São Paulo, Brazil",
+          "imageUrl": "https://hdqwalls.com/wallpapers/rio-de-janeiro-brazil-cityscape-evening-sunset-hy.jpg",
+          "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://cdn.britannica.com/24/77424-050-4FF80B58/Angkor-Wat-Cambodia.jpg",
+      "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal, India",
+      "imageUrl": "https://www.thoughtco.com/thmb/mvzDYqXzP4T_D7JfMTsWm5GgDZA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sunrise-at-taj-mahal--agra--uttar-pradash--india-583682538-5b91840bc9e77c0050bdc67b.jpg",
+      "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://www.mostbeautifulspots.com/wp-content/uploads/2017/07/Bora-Bora-French-Polynesia.jpg",
+      "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+    },
+    {
+      "id": 2,
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/033/880/780/large_2x/aerial-view-of-copacabana-beach-in-rio-de-janeiro-brazil-copacabana-beach-in-rio-de-janeiro-brazil-copacabana-beach-is-the-most-famous-beach-of-rio-de-janeiro-brazil-ai-generated-photo.jpg",
+      "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+    }
+  ]
+}
